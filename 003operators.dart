@@ -16,6 +16,7 @@ main() {
 
 class Operators {
   void arithmetic() {
+    print('Arithmetic Operator :');
     var num1 = 101;
     var num2 = 2;
     var res = 0;
@@ -46,6 +47,7 @@ class Operators {
   }
 
   void typeTest() {
+    print('Type Test : ');
     int a = 2;
     print(a is int);
 
@@ -55,6 +57,7 @@ class Operators {
   }
 
   void relational() {
+    print('Relational operator : ');
     var num1 = 5;
     var num2 = 9;
     var res = num1 > num2;
@@ -77,6 +80,7 @@ class Operators {
   }
 
   void assignment() {
+    print('Assignment Operator : ');
     double a = 12;
     double b = 3;
 
@@ -105,6 +109,7 @@ class Operators {
   }
 
   void logical() {
+    print('Logical Operator : ');
     var a = 10;
     var b = 12;
 
@@ -125,6 +130,7 @@ class Operators {
   }
 
   void conditional() {
+    print('Conditional Operator : ');
     var a = 10, b = 12;
     var res = a > 12 ? "value greater than 10" : "value lesser than or equal to 10";
     print(res);
